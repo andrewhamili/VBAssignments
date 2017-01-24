@@ -29,9 +29,6 @@ Partial Class Form1
         Me.lblWord1 = New System.Windows.Forms.Label()
         Me.lblCity = New System.Windows.Forms.Label()
         Me.lblSize = New System.Windows.Forms.Label()
-        Me.exercise6 = New System.Windows.Forms.TabPage()
-        Me.LessonB = New System.Windows.Forms.TabPage()
-        Me.LessonC = New System.Windows.Forms.TabPage()
         Me.lblWord2 = New System.Windows.Forms.Label()
         Me.lblPay = New System.Windows.Forms.Label()
         Me.TabControl1.SuspendLayout()
@@ -43,8 +40,6 @@ Partial Class Form1
         'TabControl1
         '
         Me.TabControl1.Controls.Add(Me.LessonA)
-        Me.TabControl1.Controls.Add(Me.LessonB)
-        Me.TabControl1.Controls.Add(Me.LessonC)
         Me.TabControl1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TabControl1.Location = New System.Drawing.Point(0, 0)
         Me.TabControl1.Name = "TabControl1"
@@ -66,7 +61,6 @@ Partial Class Form1
         'TabControl2
         '
         Me.TabControl2.Controls.Add(Me.exercise5)
-        Me.TabControl2.Controls.Add(Me.exercise6)
         Me.TabControl2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TabControl2.Location = New System.Drawing.Point(3, 3)
         Me.TabControl2.Name = "TabControl2"
@@ -116,35 +110,6 @@ Partial Class Form1
         Me.lblSize.TabIndex = 0
         Me.lblSize.Text = "Label1"
         '
-        'exercise6
-        '
-        Me.exercise6.Location = New System.Drawing.Point(4, 27)
-        Me.exercise6.Name = "exercise6"
-        Me.exercise6.Padding = New System.Windows.Forms.Padding(3)
-        Me.exercise6.Size = New System.Drawing.Size(506, 322)
-        Me.exercise6.TabIndex = 1
-        Me.exercise6.Text = "Exercise 12"
-        Me.exercise6.UseVisualStyleBackColor = True
-        '
-        'LessonB
-        '
-        Me.LessonB.Location = New System.Drawing.Point(4, 27)
-        Me.LessonB.Name = "LessonB"
-        Me.LessonB.Padding = New System.Windows.Forms.Padding(3)
-        Me.LessonB.Size = New System.Drawing.Size(520, 359)
-        Me.LessonB.TabIndex = 1
-        Me.LessonB.Text = "Lesson B"
-        Me.LessonB.UseVisualStyleBackColor = True
-        '
-        'LessonC
-        '
-        Me.LessonC.Location = New System.Drawing.Point(4, 27)
-        Me.LessonC.Name = "LessonC"
-        Me.LessonC.Size = New System.Drawing.Size(520, 359)
-        Me.LessonC.TabIndex = 2
-        Me.LessonC.Text = "Lesson C"
-        Me.LessonC.UseVisualStyleBackColor = True
-        '
         'lblWord2
         '
         Me.lblWord2.AutoSize = True
@@ -186,9 +151,6 @@ Partial Class Form1
     Friend WithEvents LessonA As System.Windows.Forms.TabPage
     Friend WithEvents TabControl2 As System.Windows.Forms.TabControl
     Friend WithEvents exercise5 As System.Windows.Forms.TabPage
-    Friend WithEvents exercise6 As System.Windows.Forms.TabPage
-    Friend WithEvents LessonB As System.Windows.Forms.TabPage
-    Friend WithEvents LessonC As System.Windows.Forms.TabPage
     Friend WithEvents lblSize As System.Windows.Forms.Label
     Friend WithEvents lblCity As System.Windows.Forms.Label
     Friend WithEvents lblWord1 As System.Windows.Forms.Label
